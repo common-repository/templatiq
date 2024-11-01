@@ -1,0 +1,806 @@
+# Copyright (C) 2024 wpWax
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Templatiq 0.1.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templatiq\n"
+"POT-Creation-Date: 2024-10-29 10:40:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: app/Abstracts/RouteBase.php:48
+msgid "Sorry, you are not logged in."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Templatiq"
+msgstr ""
+
+#: app/Admin/AdminMenu.php:34 app/Admin/AdminMenu.php:35
+msgid "Dashboard"
+msgstr ""
+
+#: app/Controllers/AccountController.php:25
+msgid "Username is required"
+msgstr ""
+
+#: app/Controllers/AccountController.php:29
+msgid "Password is required"
+msgstr ""
+
+#: app/Controllers/AccountController.php:63
+msgid "Logged out."
+msgstr ""
+
+#: app/Controllers/AccountController.php:83
+msgid "Name is required"
+msgstr ""
+
+#: app/Controllers/AccountController.php:87
+msgid "User email is required"
+msgstr ""
+
+#: app/Controllers/AccountController.php:120
+msgid "Account not logged in! please login before sending request."
+msgstr ""
+
+#: app/Controllers/BookmarkController.php:23
+#: app/Controllers/BookmarkController.php:49
+msgid "Template id is required"
+msgstr ""
+
+#: app/Controllers/DependencyController.php:24
+#: app/Integrations/Directorist/Controller.php:24
+msgid ""
+"You have supplied an invalid requirements. Please reload the page and try "
+"again."
+msgstr ""
+
+#: app/Controllers/DependencyController.php:64
+msgid "Theme Activated"
+msgstr ""
+
+#: app/Controllers/DependencyController.php:95
+msgid "Invalid request type. Expecting WP_REST_Request."
+msgstr ""
+
+#: app/Controllers/DependencyController.php:101
+msgid ""
+"You have supplied invalid requirements. Please reload the page and try "
+"again."
+msgstr ""
+
+#: app/Controllers/DependencyController.php:150
+msgid "Error: You don't have the required permissions to install plugins."
+msgstr ""
+
+#: app/Controllers/DependencyController.php:176
+#: app/Controllers/DependencyController.php:182
+msgid "Plugin Activated"
+msgstr ""
+
+#: app/Controllers/DependencyController.php:213
+msgid "You do not have sufficient permissions to install plugins."
+msgstr ""
+
+#: app/Controllers/DependencyController.php:225
+msgid "Invalid plugin data. Please try again."
+msgstr ""
+
+#: app/Controllers/DependencyController.php:264
+msgid "You have supplied invalid plugin data. Please reload the page and try again."
+msgstr ""
+
+#: app/Controllers/TemplateController.php:26
+msgid "Invalid ID is provided."
+msgstr ""
+
+#: app/FullTemplate/AdminMenu.php:26
+msgid "Starter Templates"
+msgstr ""
+
+#: app/FullTemplate/Controller.php:34
+msgid "You are not authorized to perform this action."
+msgstr ""
+
+#: app/FullTemplate/Controller.php:75
+msgid "Invalid Post ID - %d"
+msgstr ""
+
+#: app/FullTemplate/Controller.php:157
+msgid "User does not have permission!"
+msgstr ""
+
+#: app/FullTemplate/Controller.php:173 app/FullTemplate/Controller.php:199
+#: app/FullTemplate/Controller.php:217 app/FullTemplate/Controller.php:237
+#: app/FullTemplate/Controller.php:291 app/FullTemplate/Importer.php:129
+#: app/FullTemplate/Importer.php:196 app/FullTemplate/Importer.php:242
+#: app/FullTemplate/Importer.php:281 app/FullTemplate/Importer.php:308
+#: app/FullTemplate/Importer.php:370 app/FullTemplate/Importer.php:398
+#: app/FullTemplate/Importer.php:436 app/FullTemplate/Importer.php:477
+#: app/Integrations/Directorist/Controller.php:61
+#: app/Integrations/Directorist/Controller.php:81
+#: app/Integrations/Directorist/Controller.php:95
+msgid "You are not allowed to perform this action"
+msgstr ""
+
+#: app/FullTemplate/Controller.php:260
+msgid "Provided template_id is empty! Please try again!"
+msgstr ""
+
+#: app/FullTemplate/Controller.php:277
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: app/FullTemplate/Cron.php:30
+msgid ""
+"ERROR! Cron schedules are disabled by setting constant DISABLE_WP_CRON to "
+"true.<br/>To start the import process please enable the cron by setting the "
+"constant to false. E.g. define( 'DISABLE_WP_CRON', false );"
+msgstr ""
+
+#: app/FullTemplate/Cron.php:34
+msgid ""
+"ERROR! Cron schedules are disabled by setting constant ALTERNATE_WP_CRON to "
+"true.<br/>To start the import process please enable the cron by setting the "
+"constant to false. E.g. define( 'ALTERNATE_WP_CRON', false );"
+msgstr ""
+
+#: app/FullTemplate/Cron.php:70
+#. translators: 1: The HTTP response code.
+msgid "Unexpected HTTP response code: %s"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:167
+msgid "Get Access!"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:169
+msgid "Upgrade"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:173
+msgid ""
+"Some of the files required during the import process are "
+"missing.<br/><br/>Please try again after some time."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:174
+msgid ""
+"<p>WordPress debug mode is currently enabled on your website. This has "
+"interrupted the import process..</p><p>Kindly disable debug mode and try "
+"importing Starter Template again.</p><p>You can add the following code into "
+"the wp-config.php file to disable debug "
+"mode.</p><p><code>define('WP_DEBUG', false);</code></p>"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:176
+#. translators: %s is a documentation link.
+msgid ""
+"<p>We are facing a temporary issue in importing this template.</p><p>Read "
+"<a href=\"%s\" target=\"_blank\">article</a> to resolve the issue and "
+"continue importing template.</p>"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:178
+#. translators: %s is a documentation link.
+msgid ""
+"<p>We are facing a temporary issue in installing the required plugins for "
+"this template.</p><p>Read&nbsp;<a href=\"%s\" "
+"target=\"_blank\">article</a>&nbsp;to resolve the issue and continue "
+"importing template.</p>"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:182
+#. translators: %s are white label strings.
+msgid ""
+"Warning! %1$s Import process is not complete. Don't close the window until "
+"import process complete. Do you still want to leave the window?"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:183
+msgid "Done! View Site"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:186
+#. translators: %s is a template name
+msgid "Import \"%s\" Template"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:189
+msgid "Installing Required Plugins.."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:191
+#. translators: %s are white label strings.
+msgid "Installing %1$s Theme.."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:202
+msgid "Dismiss this notice."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:204
+msgid "One Last Step.."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:205
+msgid "Your Selected Website is Being Imported."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:206
+msgid "Your Selected Template is Being Imported."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:209
+msgid "Looks like the template you are importing is temporarily not available."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:210
+msgid ""
+"We could not start the import process and this is the message from "
+"WordPress:"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:211
+msgid "There was an error connecting to the Starter Templates API."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:212
+msgid "There was an error while importing the content."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:213
+msgid ""
+"To import content, WordPress needs to store XML file in /wp-content/ "
+"folder. Please get in touch with your hosting provider."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:214
+msgid ""
+"Looks like your host probably could not store XML file in /wp-content/ "
+"folder."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:216
+#. translators: %s HTML tags
+msgid ""
+"%1$sWe could not start the import process due to failed AJAX request and "
+"this is the message from WordPress:%2$s"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:218
+#. translators: %s URL to document.
+msgid ""
+"%1$sRead&nbsp;<a href=\"%2$s\" target=\"_blank\">article</a>&nbsp;to "
+"resolve the issue and continue importing template.%3$s"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:221
+#. translators: %s URL to document.
+msgid ""
+"%1$sWe could not complete the import process due to failed AJAX request and "
+"this is the message:%2$s"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:223
+#. translators: %s URL to document.
+msgid "%1$sPlease report this <a href=\"%2$s\" target=\"_blank\">here</a>.%3$s"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:228
+#. translators: %s Anchor link to support URL.
+msgid "Please report this error %1$shere%2$s, so we can fix it."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:240
+msgid "XMLReader Support Missing"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:242
+#. translators: %s doc link.
+msgid ""
+"You're close to importing the template. To complete the process, enable "
+"XMLReader support on your website.."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:242 app/FullTemplate/Enqueuer.php:247
+#: app/FullTemplate/Enqueuer.php:252
+msgid ""
+"Read an article <a href=\"%s\" target=\"_blank\">here</a> to resolve the "
+"issue."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:245
+msgid "cURL Support Missing"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:247
+#. translators: %s doc link.
+msgid "To run a smooth import, kindly enable cURL support on your website."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:250
+msgid "Disable Debug Mode"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:252
+#. translators: %s doc link.
+msgid ""
+"WordPress debug mode is currently enabled on your website. With this, any "
+"errors from third-party plugins might affect the import process."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:252
+msgid ""
+"Kindly disable it to continue importing the Starter Template. To do so, you "
+"can add the following code into the wp-config.php file."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:255
+msgid "Update Plugin"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:257
+#. translators: %s update page link.
+msgid "Updates are available for plugins used in this starter template."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:257
+msgid ""
+"Kindly <a href=\"%s\" target=\"_blank\">update</a> them for a successful "
+"import. Skipping this step might break the template design/feature."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:260
+msgid "Required Plugins Missing"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:261
+msgid ""
+"This starter template requires premium plugins. As these are third party "
+"premium plugins, you'll need to purchase, install and activate them first."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:264
+msgid "Dynamic Page"
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:265
+msgid ""
+"The page template you are about to import contains a dynamic widget/module. "
+"Please note this dynamic data will not be available with the imported page."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:265
+msgid "You will need to add it manually on the page."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:265
+msgid "This dynamic content will be available when you import the entire site."
+msgstr ""
+
+#: app/FullTemplate/Enqueuer.php:296
+msgid "Template library refreshed!"
+msgstr ""
+
+#: app/FullTemplate/ErrorHandler.php:111
+msgid "There was an error on your website."
+msgstr ""
+
+#: app/FullTemplate/ErrorHandler.php:151
+msgid "There was an error your website."
+msgstr ""
+
+#: app/FullTemplate/FullTemplate.php:72
+msgid ""
+"Required WP_Filesystem Permissions to import the templates from Starter "
+"Templates are missing."
+msgstr ""
+
+#: app/FullTemplate/Importer.php:133
+msgid ""
+"The XMLReader library is not available. This library is required to import "
+"the content for the website."
+msgstr ""
+
+#: app/FullTemplate/Importer.php:165
+msgid "There was an error downloading the XML file."
+msgstr ""
+
+#: app/FullTemplate/Importer.php:222
+msgid "Site options are empty!"
+msgstr ""
+
+#: app/FullTemplate/ImporterLog.php:56
+#. translators: %1$s refers to the plugin name
+msgid "Required File Permissions to import the templates from %s are missing."
+msgstr ""
+
+#: app/FullTemplate/ImporterLog.php:61
+msgid "This is usually due to inconsistent file permissions."
+msgstr ""
+
+#: app/FullTemplate/ImporterLog.php:64
+msgid ""
+"You can easily update permissions by adding the following code into the "
+"wp-config.php file."
+msgstr ""
+
+#: app/FullTemplate/ImporterLog.php:166
+msgid "Enabled"
+msgstr ""
+
+#: app/FullTemplate/ImporterLog.php:169
+msgid "Disabled"
+msgstr ""
+
+#: app/FullTemplate/ImporterLog.php:215 app/FullTemplate/ImporterLog.php:243
+msgid "Yes"
+msgstr ""
+
+#: app/FullTemplate/ImporterLog.php:218 app/FullTemplate/ImporterLog.php:246
+msgid "No"
+msgstr ""
+
+#: app/FullTemplate/Repository.php:110 app/FullTemplate/Repository.php:117
+msgid "User requirements saved."
+msgstr ""
+
+#: app/FullTemplate/WidgetsImport.php:27
+msgid "Import data is invalid."
+msgstr ""
+
+#: app/FullTemplate/WidgetsImport.php:69
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: app/FullTemplate/WidgetsImport.php:91
+msgid "Site does not support widget"
+msgstr ""
+
+#: app/FullTemplate/WidgetsImport.php:126
+msgid "Widget already exists"
+msgstr ""
+
+#: app/FullTemplate/WidgetsImport.php:200
+msgid "Imported"
+msgstr ""
+
+#: app/FullTemplate/WidgetsImport.php:203
+msgid "Imported to Inactive"
+msgstr ""
+
+#: app/FullTemplate/WidgetsImport.php:209
+msgid "No Title"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-templatiq-wxr-importer.php:441
+msgid "Import complete!"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:238
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:276
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:395
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:471
+#. translators: %1$s is WXR version, %2$s is max supported WXR version.
+msgid ""
+"This WXR file (version %1$s) is newer than the importer (version %2$s) and "
+"may not be supported. Please consider updating."
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:622
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:686
+msgid "Invalid author mapping"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:787
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:888
+#. translators: %1$s is the import message, %2$s is post type.
+msgid "Failed to import \"%1$s\": Invalid post type %2$s"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:900
+#. translators: %1$s single post type, %2$s is post title.
+msgid "%1$s \"%2$s\" already exists."
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:997
+#. translators: %s is post title
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1047
+#. translators: %1$s is the post title, %2$s is post type.
+msgid "Failed to import \"%1$s\" (%2$s)"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1082
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1969
+#. translators: %1$s is the post title, %2$s is post type.
+#. translators: %1$s is the taxonomy name, %2$s is taxonomy.
+msgid "Imported \"%1$s\" (%2$s)"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1090
+#. translators: %1$s is the original post id, %2$s is old post id.
+msgid "Post %1$d remapped to %2$d"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1245
+msgid "Invalid file type"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1750
+#. translators: %s user login name
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1774
+#. translators: %s user login name
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1781
+#. translators: %1$s original user Id, %2$s old user Id.
+msgid "User %1$d remapped to %2$d"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1942
+#. translators: %1$s is the taxonomy, %2$s is taxonomy name.
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:1977
+#. translators: %1$s is term original id, %2$s is term id.
+msgid "Term %1$d remapped to %2$d"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2080
+#. translators: %1$s is error code, %2$s is error code header, %3$s is url.
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2093
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2098
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2105
+#. translators: %s max file size.
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2138
+#. translators: %d is post id.
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2154
+#. translators: %1$s is post title, %2$s is post id.
+msgid "Could not find the post parent for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2162
+#. translators: %1$d is post id, %2$d is parent post id.
+msgid "Post %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2179
+#. translators: %1$s is the post title, %2$s is post id.
+msgid "Could not find the author for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2187
+#. translators: %1$d is post id, %2$s is author slug.
+msgid "Post %1$d was imported with author \"%2$s\", but could not be found"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2216
+#. translators: %d is post id.
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2233
+#. translators: %1$s is the post title, %2$s is post id.
+msgid "Could not update \"%1$s\" (post #%2$d) with mapped data"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2287
+#. translators: %1$s is the post title, %2$s is post id.
+msgid "Could not find the menu object for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2295
+#. translators: %1$s is post id, %2$s is post object id, %3$s is menu type.
+msgid ""
+"Post %1$d was imported with object \"%2$d\" of type \"%3$s\", but could not "
+"be found"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2326
+#. translators: %d is comment id.
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2333
+#. translators: %1$s is comment id, %2$s is parent comment id.
+msgid "Comment %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2350
+#. translators: %d is comment id.
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2357
+#. translators: %1$d is comment id, %2$d is author id.
+msgid "Comment %1$d was imported with author %2$d, but could not be found"
+msgstr ""
+
+#: app/FullTemplate/inc/importers/wxr-importer/class-wxr-importer.php:2377
+#. translators: %d is comment id.
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: app/Integrations/Directorist/AddBuilderSettings.php:80
+msgid "Custom Add Listing Page"
+msgstr ""
+
+#: app/Integrations/Directorist/AddBuilderSettings.php:86
+msgid "Select page"
+msgstr ""
+
+#: app/Integrations/Directorist/AddBuilderSettings.php:104
+msgid "Listing Form Custom Template [Templatiq]"
+msgstr ""
+
+#: app/Integrations/Directorist/Controller.php:72
+msgid "Some problem detected, please try again later."
+msgstr ""
+
+#: app/Integrations/Directorist/Repository.php:64
+msgid "All Directorist data has been erased."
+msgstr ""
+
+#: app/Integrations/Elementor/Controller.php:33
+msgid "Post not found."
+msgstr ""
+
+#: app/Integrations/Elementor/Controller.php:59
+msgid "Access Denied"
+msgstr ""
+
+#: app/Integrations/Elementor/Controller.php:68
+msgid "Item ID Missing"
+msgstr ""
+
+#: app/Repositories/AccountRepository.php:33
+msgid "Invalid username or password"
+msgstr ""
+
+#: app/Repositories/AccountRepository.php:67
+msgid "Email already exists, please try with another email address."
+msgstr ""
+
+#: app/Repositories/AccountRepository.php:92
+msgid "Can't get data from templatiq.com, please re-login"
+msgstr ""
+
+#: app/Repositories/DependencyRepository.php:56
+msgid "You have to install this plugin manually."
+msgstr ""
+
+#: app/Repositories/DependencyRepository.php:89
+msgid "Can't install pro plugin, have to install it manually first"
+msgstr ""
+
+#: app/Repositories/DependencyRepository.php:141
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: app/Repositories/DependencyRepository.php:272
+msgid ""
+"Insufficient Permission. Please contact your Super Admin to allow the "
+"install required plugin permissions."
+msgstr ""
+
+#: app/Repositories/ImporterRepository.php:16
+msgid "Builder not specified yet."
+msgstr ""
+
+#: app/Repositories/ImporterRepository.php:26
+msgid "Template data not found"
+msgstr ""
+
+#: app/Repositories/ImporterRepository.php:62
+msgid "Import as page failed"
+msgstr ""
+
+#: app/Routes/Connect.php:57
+msgid "Authentication Successful"
+msgstr ""
+
+#: app/Setup/Activation.php:50
+msgid "An Error Occurred"
+msgstr ""
+
+#: app/Setup/Activation.php:51
+msgid "Your installed PHP Version is: "
+msgstr ""
+
+#: app/Setup/Activation.php:52
+msgid ""
+"<p>The <strong>All in One Content Restriction</strong> plugin requires PHP "
+"version <strong>"
+msgstr ""
+
+#: app/Setup/Activation.php:52
+msgid "</strong> or greater"
+msgstr ""
+
+#: app/Setup/Activation.php:53
+msgid "<p>The version of your PHP is "
+msgstr ""
+
+#: app/Setup/Activation.php:53
+msgid "unsupported and old"
+msgstr ""
+
+#: app/Setup/Activation.php:54
+msgid ""
+"You should update your PHP software or contact your host regarding this "
+"matter.</p>"
+msgstr ""
+
+#: app/Setup/Activation.php:57
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: templates/template-library/templates.php:6
+msgid "Insert"
+msgstr ""
+
+#: vendor/appsero/client/src/Insights.php:725
+msgid "Once Weekly"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The Ultimate Templates | Craft beautiful website in no time"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "wpWax"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpwax.com"
+msgstr ""
+
+#: app/FullTemplate/ImporterLog.php:180
+#. translators: %1$s Memory Limit, %2$s Recommended memory limit.
+msgctxt "Recommended Memory Limit"
+msgid "Current memory limit %1$s. We recommend setting memory to at least %2$s."
+msgstr ""
+
+#: app/FullTemplate/ImporterLog.php:223
+msgctxt "PHP Version"
+msgid "We recommend to use php 5.4 or higher"
+msgstr ""

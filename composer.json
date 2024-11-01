@@ -1,0 +1,25 @@
+{
+    "name": "wpwax/templatiq",
+    "autoload": {
+        "psr-4": {
+            "Templatiq\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "yes"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "appsero/client": "^2.0"    
+    },
+    "scripts": {
+       "build": [
+			"composer --no-plugins --no-interaction install --no-scripts --no-dev"
+		],
+        "setup": [
+			"composer install --no-cache"
+		]
+    }
+}
